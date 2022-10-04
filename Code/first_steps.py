@@ -75,12 +75,3 @@ plt.imshow(im_flip2)
 plt.axis('off')
 plt.title("90° clockwise")
 
-upper, left, lower, right = 150, 150, 400, 400
-
-fig.add_subplot(rows, columns, 5)
-
-crop_image=image.crop((left, upper, right, lower))
-
-plt.imshow(crop_image)
-plt.axis('off')
-plt.title("cropped image")
